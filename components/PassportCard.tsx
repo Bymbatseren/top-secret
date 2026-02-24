@@ -18,7 +18,7 @@ export default function PassportCard() {
     <div className="absolute z-10 text-black top-[69px] left-[105px]">ULAM-URNUKH</div>
     <div className="absolute z-10 text-black top-[94px] left-[105px]">BYAMBATSEREN</div>
     <div className="absolute z-10 text-black top-[116px] left-[105px]">MONGOLIA</div>
-    <div className="absolute z-10 text-black top-[140px] left-[105px]">KV06271414</div>
+    <div className="absolute z-10 text-black top-[140px] left-[105px]">KV04271414</div>
     <div className="absolute z-10 text-black top-[163px] left-[105px]">01 MAY 2025</div>
     <div className="absolute z-10 text-black top-[186px] left-[105px]">30 APR 2035</div>
     <div className="absolute z-10 text-black top-[50px] left-[105px]">PE</div>
@@ -32,7 +32,7 @@ export default function PassportCard() {
       className="absolute z-10 top-[46px] left-[7px] object-cover"
     />
 
-    <div className="absolute z-10 text-black top-[116px] left-[210px]">14/07/2006</div>
+    <div className="absolute z-10 text-black top-[116px] left-[210px]">14/07/2004</div>
     <div className="absolute z-10 text-black top-[138px] left-[210px]">M</div>
     <div className="absolute z-10 text-black top-[162px] left-[210px]">
       General Authority for

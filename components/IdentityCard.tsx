@@ -29,10 +29,10 @@ export default function IdentityCard({ onClick }: { onClick: () => void }) {
         Эрэгтэй
       </div>
       <div className="absolute z-10 text-black top-[173px] left-[104px]">
-        2006/07/14
+        2004/07/14
       </div>
       <div className="absolute z-10 text-black top-[194px] left-[104px]">
-        675718393215
+        615718393215
       </div>
       <Image
         src="/me.png"

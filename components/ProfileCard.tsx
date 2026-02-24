@@ -22,7 +22,7 @@ export default function ProfileCard() {
           Бямбацэрэн
         </p>
         <p className="text-xs" style={{ color: "#64748b" }}>
-          675718393215@e-mongolia.mn
+          615718393215@e-mongolia.mn
         </p>
       </div>
 

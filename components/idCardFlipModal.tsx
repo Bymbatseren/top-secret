@@ -48,11 +48,11 @@ export default function IDCardFlip() {
                                 </div>
 
                                 <div className="absolute top-[173px] left-[104px] z-10 text-black">
-                                    2006/07/14
+                                    2004/07/14
                                 </div>
 
                                 <div className="absolute top-[194px] left-[104px] z-10 text-black">
-                                    675718393215
+                                    615718393215
                                 </div>
 
                                 {/* Photo */}
@@ -81,10 +81,10 @@ export default function IDCardFlip() {
 
                                 {/* Issue & Expiry Date */}
                                 <div className="absolute top-[70px] left-[119px] z-10 text-black">
-                                    2022-09-05
+                                    2020-09-05
                                 </div>
                                 <div className="absolute top-[95px] left-[119px] z-10 text-black">
-                                    2031/07/14
+                                    2029/07/14
                                 </div>
 
                               

@@ -39,7 +39,7 @@ export default function EcoCard() {
           </div><div className="flex-grow pt-10 flex justify-between">
             <div className="flex flex-col gap-2">
               <p className=" text-[#3667AA] font-bold">Улам-Өрнөх Бямбацэрэн</p>
-              <p className="text-[13px] font-bold">675718393215@e-mongolia.mn</p></div><a href="/profile/settings">
+              <p className="text-[13px] font-bold">615718393215@e-mongolia.mn</p></div><a href="/profile/settings">
               <button className="overflow-hidden whitespace-nowrap rounded-full cursor-pointer gap-2 transition-all duration-300 ease-in-out disabled:cursor-not-allowed bg-primary text-white hover:bg-primary/92 focus:bg-primary-dark-1 active:bg-primary-dark-1 disabled:bg-slate-200 disabled:text-slate-400 p-[9px] h-9! w-9! inline-flex items-center justify-center lg:px-[14px]! lg:w-min! sub-semibold bg-[#377AE5]">
               <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" color="currentColor" className="" stroke-width="1.5" stroke="currentColor">
               <path d="M15.5 12C15.5 13.933 13.933 15.5 12 15.5C10.067 15.5 8.5 13.933 8.5 12C8.5 10.067 10.067 8.5 12 8.5C13.933 8.5 15.5 10.067 15.5 12Z" stroke="currentColor" stroke-width="1.5"></path>
