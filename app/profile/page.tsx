@@ -7,7 +7,6 @@ import TabButtons from "@/components/TabButtons";
 import IdentityCard from "@/components/IdentityCard";
 import PassportCard from "@/components/PassportCard";
 import BottomNav from "@/components/BottomNav";
-import Footer from "@/components/Footer";
 import ModalWrapper from "@/components/modal";
 import { useState } from "react";
 import Modal from "@/components/modal";
