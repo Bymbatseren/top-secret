@@ -16,22 +16,22 @@ export default function IdentityCard({ onClick }: { onClick: () => void }) {
       />
 
     
-      <div className="absolute z-10 text-black top-[58px] left-[104px]">
+      <div className="absolute z-9 text-black top-[58px] left-[104px]">
         Боржигон Шар Дугар
       </div>
-      <div className="absolute z-10 text-black top-[87px] left-[104px]">
+      <div className="absolute z-9 text-black top-[87px] left-[104px]">
         Улам-Өрнөх
       </div>
-      <div className="absolute z-10 text-black top-[114px] left-[104px]">
+      <div className="absolute z-9 text-black top-[114px] left-[104px]">
         БЯМБАЦЭРЭН
       </div>
-      <div className="absolute z-10 text-black top-[143px] left-[104px]">
+      <div className="absolute z-9 text-black top-[143px] left-[104px]">
         Эрэгтэй
       </div>
-      <div className="absolute z-10 text-black top-[173px] left-[104px]">
+      <div className="absolute z-9 text-black top-[173px] left-[104px]">
         2004/07/14
       </div>
-      <div className="absolute z-10 text-black top-[194px] left-[104px]">
+      <div className="absolute z-9 text-black top-[194px] left-[104px]">
         615718393215
       </div>
       <Image
@@ -39,7 +39,7 @@ export default function IdentityCard({ onClick }: { onClick: () => void }) {
         alt="Зураг"
         width={90}
         height={125}
-        className="absolute z-10 top-[70px] left-[5px] object-cover"
+        className="absolute z-9 top-[70px] left-[5px] object-cover"
       />
     </div>
   );

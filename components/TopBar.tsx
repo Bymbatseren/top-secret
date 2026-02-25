@@ -8,7 +8,7 @@ export default function TopBar() {
   return (
     <div
       className=" items-center justify-between px-3.5 py-2 text-xs border-b "
-      style={{ background: "#12122a", borderColor: "#2a2a3e", color: "#aaa" }}
+      style={{ background: "#03102F", borderColor: "#2a2a3e", color: "#aaa" }}
     >
       <div className="flex text-white  gap-4">
         <div className="font-[500] text-[14px]">

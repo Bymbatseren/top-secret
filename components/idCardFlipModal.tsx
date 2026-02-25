@@ -1,6 +1,6 @@
 "use client"
 import { useState } from "react"
-import IdentityCard from "./IdentityCard"
+
 
 export default function IDCardFlip() {
     const [flipped, setFlipped] = useState(false)
@@ -17,20 +17,20 @@ export default function IDCardFlip() {
                         }`}
                 >
 
-                    {/* FRONT */}
+              
                     <div className="absolute w-full h-full backface-hidden">
                         <div className="relative text-xs inline-block min-w-[490px] min-h-[308px] overflow-hidden">
 
                             <div className="origin-top-left scale-[1.4]">
 
-                                {/* Background */}
+                           
                                 <img
                                     src="https://cache.e-mongolia.mn/files/portal-v5/images/documents/id-card-front.svg"
                                     alt="ID Card"
                                     className="w-[350px] h-[220px] object-cover rounded-xl"
                                 />
 
-                                {/* Text overlays */}
+                               
                                 <div className="absolute top-[58px] left-[104px] z-10 text-black">
                                     Боржигон Шар Дугар
                                 </div>
@@ -55,7 +55,7 @@ export default function IDCardFlip() {
                                     615718393215
                                 </div>
 
-                                {/* Photo */}
+                           
                                 <img
                                     src="/me.png"
                                     alt="Зураг"
@@ -66,20 +66,19 @@ export default function IDCardFlip() {
                         </div>
                     </div>
 
-                    {/* BACK */}
                     <div className="absolute w-full h-full rotate-y-180 backface-hidden">
                         <div className="relative text-xs font-sans inline-block min-w-[490px] min-h-[308px] overflow-hidden">
 
                             <div className="origin-top-left scale-[1.4]">
 
-                                {/* Background */}
+                               
                                 <img
                                     src="https://cache.e-mongolia.mn/files/portal-v5/images/documents/id-card-back.svg"
                                     alt="ID Card Back"
                                     className="w-[350px] h-[220px] object-cover rounded-xl"
                                 />
 
-                                {/* Issue & Expiry Date */}
+                               
                                 <div className="absolute top-[70px] left-[119px] z-10 text-black">
                                     2020-09-05
                                 </div>

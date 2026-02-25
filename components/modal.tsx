@@ -10,19 +10,19 @@ export default function Modal({ isOpen, setIsOpen }: ModalProps) {
 
   return (
     <>
-      {/* Backdrop */}
+     
       <div
         className="fixed inset-0 max-w-[425px] bg-black bg-opacity-50 backdrop-blur-sm z-40"
         onClick={() => setIsOpen(false)}
       ></div>
 
-      {/* Modal */}
+  
       <div className="fixed inset-0  flex items-center justify-center z-50">
         <div
           className="max-w-[405px] w-full bg-[#081D48] rounded-xl relative p-4 "
-          onClick={(e) => e.stopPropagation()} // Modal дотор дарсан click backdrop-ыг хаахгүй
+          onClick={(e) => e.stopPropagation()} 
         >
-          {/* Header */}
+       
           <div className="flex items-center justify-between mb-4">
             <div className="text-white font-medium text-[18px]">
               Иргэний үнэмлэх
@@ -35,7 +35,7 @@ export default function Modal({ isOpen, setIsOpen }: ModalProps) {
             </button>
           </div>
 
-          {/* IDCardFlip */}
+          
           <div className="flex justify-center mb-3 ml-[100px]">
             <IDCardFlip />
           </div>
@@ -44,7 +44,7 @@ export default function Modal({ isOpen, setIsOpen }: ModalProps) {
             Бичиг баримтын арын хуудсыг харах бол үнэмлэх дээр дарна уу.
           </p>
 
-          {/* Buttons */}
+        
           <div className="flex gap-4 justify-center mb-3">
             <a href="/service/5d8b13383666c358f659b2ee">
               <button className="whitespace-nowrap rounded-full px-6 h-10 inline-flex items-center justify-center bg-[#3B82F6] text-white font-semibold hover:bg-blue-600 transition">

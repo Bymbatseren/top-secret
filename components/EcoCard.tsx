@@ -31,7 +31,7 @@ export default function EcoCard() {
       </div>
       <div className="flex flex-col gap-5 border-b border-border-disabled pb-3 -mt-8">
         <div className="flex flex-row gap-4 items-center px-5 sm:px-0 md:px-5">
-          <div className="relative bg-linear-[135deg,white_0%,#296AED_28%,#9AD1FF_50%,#9ECFFF_73%,white] min-w-[120px] h-[120px] rounded-xl">
+          <div className="relative bg-[linear-gradient(135deg,_white_0%,_#296AED_28%,_#9AD1FF_50%,_#9ECFFF_73%,_white)] min-w-[120px] h-[120px] rounded-xl">
             <div className="absolute top-[5px] left-[5px] rounded-xl overflow-hidden w-[110px] h-[110px] inline-flex justify-center">
               <img alt="Нүүр зураг" width="110" height="110" decoding="async" data-nimg="1" src="./me.png" className="object-cover"></img>
             </div>
